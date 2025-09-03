@@ -1,0 +1,12 @@
+{
+  "startPages": ["https://example.com"],
+  "ignoredUrls": ["^.*\\.(png|jpg|gif)$"],
+  "ignoredWords": ["^.{0,2}$"],
+  "parallelism": 1,
+  "implementationOverride": "com.udacity.webcrawler.SequentialWebCrawler",
+  "maxDepth": 2,
+  "timeoutSeconds": 5,
+  "popularWordCount": 10,
+  "profileOutputPath": "output/profileData.txt",
+  "resultPath": "output/crawlResult.json"
+}
